@@ -21,44 +21,6 @@
 </head>
 
 <!-- need to pass this to the css file later - along with all styles-->
-<style>
-
-.button {
-  background-color: #315e26;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-#academics {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-#academics td, #academics th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#academics tr:nth-child(even){background-color: #f2f2f2;}
-
-#academics tr:hover {background-color: #ddd;}
-
-#academics th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #04AA6D;
-  color: white;
-}
-</style>
 
 <body id="page-top">
 
@@ -76,7 +38,7 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#axie">Axie Infinity</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#scholarship-academy">Scholarship Academy</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#scholar-academy">Scholar Academy</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#rules">Rules</a>
@@ -122,8 +84,8 @@
   <section class="page-section portfolio" id="portfolio">
     <div class="container">
 
-      <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Axie Infinity</h2>
+      <!-- Axie Infinity Ranks -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Axie Infinity Scholars</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom">
@@ -134,81 +96,68 @@
         <div class="divider-custom-line"></div>
       </div>
 
-      <!-- Portfolio Grid Items -->
-      <div class="row">
-
-        <!-- Portfolio Item 1 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/services/top-slp.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 2 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/services/top-arena.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 3 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/services/rules.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 4 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/services/slp-share.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 5 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/services/first-week.png" alt="">
-          </div>
-        </div>
-
-      </div>
-      <!-- /.row -->
+      <!-- Axie Infinity SLP Rank-->
+      <!-- Axie Infinity Ranks -->
+      
+      <img class="mb-0" src="img/scholars.png" width="1150" height="400" alt="">
 
     </div>
+    <br>
+    <br>
+
+      <div class="container">
+        <div class="col-lg-6 mr-auto">
+          <p class="lead">Scholar table for SLP split reference (Total accumulated in 14 days):
+            <table id="academics">
+              <tr>
+                <th>Avg Daily SLP</th>
+                <th>Total SLP</th>
+                <th>Scholar</th>
+                <th>Manager</th>
+              </tr>
+              <tr>
+                <td>140</td>
+                <td>2000 - 2249</td>
+                <td>35%</td>
+                <td>65%</td>
+              </tr>
+              <tr>
+                <td>160</td>
+                <td>2250 - 2499</td>
+                <td>40%</td>
+                <td>60%</td>
+              </tr>
+              <tr>
+                <td>180</td>
+                <td>2500 - 2799</td>
+                <td>45%</td>
+                <td>55%</td>
+              </tr>
+              <tr>
+                <td>200</td>
+                <td>2800 or more</td>
+                <td>50%</td>
+                <td>50%</td>
+              </tr>
+            </table>
+
+          </p>
+          <br>
+          <p class="lead">The SLP will be entirely withdraw whenever it is available. The scholar share will be entirely paid in SLP into his/her private Ronim wallet.<br><br>
+          For every additional month scholar stays in the team, they will get an additional 1%, until it gets to an additional of 5% in total. Which means that high performance scholars might reach up to 55% in SLP share.
+          </p>
+        </div>
+      </div>
+  
+
   </section>
 
   <!-- About Section -->
-  <section class="page-section bg-primary text-white mb-0" id="scholarship-academy">
+  <section class="page-section bg-primary text-white mb-0" id="scholar-academy">
     <div class="container">
 
       <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">Scholarship Academy</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-white">Scholar Academy</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
@@ -221,67 +170,119 @@
 
       <!-- About Section Content -->
       <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">eveRed is looking for new players who want to become eR scholars. The first step is to apply to the Academy program. If you are selected, you will be able to join the academy and prove your worth during one month. We offer guidance to help you maximise your SLP and victories in Arena. By the end of the 30 days trial, we will evaluate your performance and decide to promote you as scholar or not. The key performance items evaluated will be your potential for farm SLP and rating in Arena.</p>
-          <br>
-          <a href="#apply" class="button">Apply</a>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">Our pillars are respect, dedication, obsession for perfection and have fun. We value scholars who are looking to play even when your team has no energy, for the simple fact of improving your knowledge about your build and the game. It is important that you have fun with the game, as you will be spending a good part of the day playing it. Work hard, have fun and become a legend.
+        <div class="col-lg-5 ml-auto">
+          <p class="lead">eveRed Scholar Academy gives the chance for new players to show they can rapidly learn the game, prove their commitment and talent to the guild.</p><br><p class="lead"> During 4 weeks, you will get a basic team of proven Axies to start playing Axie Infinity. If your performance exceeds our expectations, there will be great chances that you will become a permanent scholar by the end of the academy.</p>
+          
         </div>
 
 
-
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">
+        <div class="col-lg-6 mr-auto">
+          <p class="lead">It is expected that new players in academy improve average daily SLP and arena rating every week.</p><p class="lead">Below, you can see the averages, including the total SLP accumulated in the account:
             <table id="academics">
               <tr>
                 <th>Week</th>
-                <th>Min Daily SLP</th>
-                <th>Min Weekly SLP</th>
-                <th>Min Arena Rating</th>
+                <th>Avg Daily SLP</th>
+                <th>Total SLP</th>
+                <th>Arena MMR</th>
+                <th>SLP Share</th>
               </tr>
               <tr>
                 <td>Week1</td>
-                <td>75</td>
-                <td>525</td>
-                <td>1200</td>
+                <td>100</td>
+                <td>700</td>
+                <td>1100 - 1299</td>
+                <td>35%</td>
               </tr>
               <tr>
                 <td>Week2</td>
-                <td>100</td>
-                <td>700</td>
-                <td>1300</td>
+                <td>115</td>
+                <td>1505</td>
+                <td>1200 - 1299</td>
+                <td>35%</td>
               </tr>
               <tr>
                 <td>Week3</td>
                 <td>130</td>
-                <td>910</td>
-                <td>1400</td>
+                <td>2415</td>
+                <td>1300 - 1500</td>
+                <td>35%</td>
               </tr>
               <tr>
                 <td>Week4</td>
-                <td>150</td>
-                <td>1050</td>
-                <td>1500</td>
+                <td>145</td>
+                <td>3430</td>
+                <td>1300 - 1500</td>
+                <td>35%</td>
               </tr>
             </table>
+
+          </p>
+          <br>
+          <p class="lead">SLP withdraw while in academy is in the end of the 4th week after you start playing with the axies. That makes easier for the academic and manager to check progression. <br><br>The expected SLP share for academic is 35%, however, if you exceed the expectations, your share will be according to the scholar table.
           </p>
         </div>
 
       </div>
 
+      
+    </div>
 
 
-      <!-- About Section Button >
-      <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-          <i class="fas fa-download mr-2"></i>
-          Free Download!
-        </a>
-      </div-->
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="rules">
+    <div class="container">
+
+      <!-- Contact Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Rules</h2>
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <br>
+      
+        <ul class="a">
+          <li>Be honest with your manager and be nice with other scholars.</li>
+          <li>No toxic behaviour will be tolerated.</li>
+          <li>MULTI-ACCOUNT IS NOT ACCEPTABLE. You can play only one account, regardless of using separate devices.</li>
+          <li>DO NOT SHARE YOUR ACCOUNT. This is also not acceptable by eveRed (although possible in the game), as we don't want risk one of your friends playing in multiple accounts.</li>
+          <li>No toxic behaviour will be tolerated.</li>
+          <li>If your performance is not satisfactory, you can be sacked and receive your remaining SLP.</li>
+          <li>Read the information provided here before asking a question to your manager.</li>
+        </ul>
+
+
+     
 
     </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="page-section bg-primary text-white mb-0" id="faq">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white">faq</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      adkaklskd
+
+      
+    </div>
+
+
   </section>
 
   <!-- Contact Section -->
@@ -289,7 +290,27 @@
     <div class="container">
 
       <!-- Contact Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Apply</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Apply to Scholar Academy</h2>
+
+      <br><br>
+          <p class="lead">If you are interested, we are looking for players with the following requirements:</p>
+            <br>
+            
+              <ul class="a">
+                <li>Organized, disciplined, with a great analytical mind;</li>
+                <li>Able to play 7 days a week;</li>
+                <li>Can see his/her mistakes during matches and constantly improve;</li>
+                <li>Able to do his/her own researches to improve gameplay and maximise rating and SLP;</li>
+                <li>3-5 minimum gaming experience;</li>
+                <li>Experience with card games, such as Pokemon Go, HearthStone, Magic or others;</li>
+                <li>Stable Internet Connection;</li>
+              </ul>
+            
+          <br>
+          By applying, I assure that all information that I will provide is correct, and I have read and agree with all <a href="#scholar-academy">Scholar Academy</a> terms and eveRed rules.
+          <br>
+          <br>
+          <a href="#apply" class="button">Apply</a>
 
       <!-- Icon Divider -->
       <div class="divider-custom">
@@ -299,8 +320,6 @@
         </div>
         <div class="divider-custom-line"></div>
       </div>
-
-      <h4 class="masthead-subheading text-center font-weight-light mb-0">Send email to info@seedsofconsciousness.com.au or call us at +61 431 056 222.</h4>
 
     </div>
   </section>
@@ -312,14 +331,17 @@
 
         <!-- Footer Location -->
         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">Northern Beaches, Sydney
-            <br>New South Wales, Australia</p>
+          <h4 class="text-uppercase mb-4">eveRed</h4>
+          <p class="lead mb-0">Professional Gamers
+            <br>International Guild</p>
         </div>
 
         <!-- Footer Social Icons -->
         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Our Social Medias</h4>
+          <h4 class="text-uppercase mb-4">Other games</h4>
+          <p class="lead mb-0">Coming soon</p>
+
+          <!-- Link to old social media buttons
           <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/theseedsbynena">
             <i class="fab fa-fw fa-facebook-f"></i>
           </a>
@@ -329,12 +351,13 @@
           <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/company/29301039/">
             <i class="fab fa-fw fa-linkedin-in"></i>
           </a>
+          -->
 
         </div>
 
         <!-- Footer About Text -->
         <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">Online Courses</h4>
+          <h4 class="text-uppercase mb-4">Guides and Coaching</h4>
           <p class="lead mb-0">Coming soon</p>
         </div>
 
@@ -345,7 +368,7 @@
   <!-- Copyright Section -->
   <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; www.seedsofconsciousness.com.au 2019</small>
+      <small>Copyright &copy; evered.gg 2021</small>
     </div>
   </section>
 
